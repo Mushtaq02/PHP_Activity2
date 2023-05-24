@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(../img/3e5b32e130582402b12da7d23da07421.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: 'cairo Play' , sans-serif;
+    font-weight: bold ;
+}
+.row {
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 5px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.col-md-5{
+    margin-top: 50px;
+    box-shadow: -1px 1px 40px 15px black;
+    background: rgba(0,0,0,0.7);
+    border-radius: 0px;
+    width: 950px;
+    max-height: 400px;
+}
+.col-md-6 {
+    margin-top: 0px;
+    width: 400px;
+}
+.label{
+    margin-top: 15px;
+    outline: 10px;
+    color: white;
+    font-size: 20px;
+}
+.size{
+    margin-top: 15px;
+    outline: 10px;
+    color: white;
+    font-size: 15px;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+}
+input{
+    margin-top: 15px;
+    width: 15px;
+    font-size: 10px;
+    background: transparent;
+}
+small{
+    font-size: 18px;
+    color: white;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+}
+.btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: crimson;
+}
+.btn-warning {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}

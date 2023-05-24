@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(../img/3e5b32e130582402b12da7d23da07421.jpg);
+    background-size:cover;
+    font-family: 'cairo' , sans-serif;
+    font-weight: bold ;
+}
+.row {
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 5px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.col-md-5{
+    margin-top: 20px;
+    box-shadow: 0px 0px 30px 15px black;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    width: 570px;
+}
+.posetion{
+    margin-top: 170px;
+}
+.col-md-6 {
+    margin-top: 0px;
+    width: 400px;
+}
+.label{
+    margin-top: 15px;
+    outline: 10px;
+    color: white;
+    font-size: 20px;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+}
+input{
+    margin-top: 15px;
+    width: 15px;
+    font-size: 10px;
+    background: transparent;
+}
+small{
+    font-size: 18px;
+    color: white;
+}
+input[type="checkbox"]{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+}
+.form-select{
+    background: transparent;
+    color: gray;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+.btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.btn-warning {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+a {
+    background-color: #0dcaf0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+
+
+
